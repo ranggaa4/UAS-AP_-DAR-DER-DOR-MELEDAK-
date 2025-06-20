@@ -1,23 +1,26 @@
-🎮 Permainan Tebak Nama Negara 
+# 🎮 Permainan Tebak Nama Negara dengan Huruf Hilang
 
-👥 Nama Kelompok: DAR DER DOR MELEDAK
- Anggota:
+## 👥 Nama Kelompok: **DAR DER DOR MELEDAK**
+
+### Anggota:
 
 * 🧑‍💻 **Rusydi Araffi** (241401023)
 * 🧑‍💻 **Riverio Renho Marcello Sumbayak** (241401047)
 * 🧑‍💻 **Wein Ilham Lutfi** (241401101)
 * 🧑‍💻 **Rangga Adittya Prayoga** (241401140)
 
+---
 
- 📝 Deskripsi Program
+## 📝 Deskripsi Program
 
 **Judul:** *Permainan Tebak Nama Negara dengan Huruf Hilang*
 **Jenis:** Game Edukasi Sederhana (Bahasa C++)
 
 Program ini merupakan permainan edukatif yang bertujuan untuk menguji dan meningkatkan pengetahuan pemain tentang nama-nama negara di dunia. Pemain akan disajikan nama negara dengan beberapa huruf yang hilang secara acak, lalu diminta untuk menebak nama negara tersebut berdasarkan huruf yang tersisa.
 
+---
 
- 🔄 Alur Permainan
+## 🔄 Alur Permainan
 
 1. Program memilih satu nama negara secara acak dari daftar yang tersedia.
 2. Sebanyak 2–3 huruf (selain spasi/simbol) dari nama tersebut akan dihapus secara acak.
@@ -26,16 +29,18 @@ Program ini merupakan permainan edukatif yang bertujuan untuk menguji dan mening
 5. Jika jawaban benar, skor bertambah 1.
 6. Pemain dapat memilih untuk melanjutkan atau mengakhiri permainan.
 
+---
 
- ✨ Fitur Utama
+## ✨ Fitur Utama
 
 * Random shuffle untuk menentukan huruf yang dihapus.
 * Dukungan input string dengan spasi (contoh: *amerika serikat*).
 * Sistem skor untuk mendorong semangat bermain.
 * Perbandingan tidak peka huruf besar/kecil (menggunakan konversi ke lowercase).
 
+---
 
- 🎯 Tujuan Pembelajaran
+## 🎯 Tujuan Pembelajaran
 
 Proyek ini dirancang untuk melatih keterampilan berikut:
 
@@ -49,8 +54,9 @@ Proyek ini dirancang untuk melatih keterampilan berikut:
 * Validasi dan manipulasi string sederhana
 * Konsep **pseudo-random** dalam pemrograman
 
+---
 
- 🚀 Potensi Pengembangan
+## 🚀 Potensi Pengembangan
 
 * Penambahan level kesulitan (misal: lebih banyak huruf dihapus)
 * Fitur batasan waktu menjawab
