@@ -68,7 +68,7 @@ Proyek ini dirancang untuk melatih keterampilan berikut:
 ## 📂 Link Google Drive
 
 **Unduh file program atau dokumentasi lengkap:**
-[Link Google Drive di sini]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1rPv-ljt0G1X8cL4WZimFHTdIzxrpvJJa/view?usp=sharing)
+(https://drive.google.com/file/d/1rPv-ljt0G1X8cL4WZimFHTdIzxrpvJJa/view?usp=sharing)
 
 ---
 
