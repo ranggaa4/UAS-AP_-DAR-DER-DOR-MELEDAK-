@@ -1,4 +1,4 @@
-# 🎮 Permainan Tebak Nama Negara dengan Huruf Hilang
+# 🎮 Permainan Tebak Nama Negara
 
 ## 👥 Nama Kelompok: **DAR DER DOR MELEDAK**
 
