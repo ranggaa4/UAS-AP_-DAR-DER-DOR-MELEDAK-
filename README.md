@@ -75,4 +75,4 @@ Proyek ini dirancang untuk melatih keterampilan berikut:
 ## 📺 Link YouTube Demo
 
 **Tonton demo permainan di YouTube:**
-[Link Video YouTube di sini](https://youtube.com/your-link-here)
+https://youtu.be/KT7C5sES_P0
