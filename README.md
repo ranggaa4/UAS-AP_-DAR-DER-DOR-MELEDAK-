@@ -72,7 +72,7 @@ Proyek ini dirancang untuk melatih keterampilan berikut:
 
 ---
 
-## 📺 Link YouTube Demo
+## 📺 Link YouTube
 
 **Video Penjelasan Program:**
 https://youtu.be/KT7C5sES_P0
