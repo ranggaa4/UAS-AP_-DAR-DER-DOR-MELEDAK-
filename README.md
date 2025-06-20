@@ -1,4 +1,4 @@
-# 🎮 Permainan Tebak Nama Negara 
+# 🎮 Permainan Tebak Nama Negara dengan Huruf Hilang
 
 ## 👥 Nama Kelompok: **DAR DER DOR MELEDAK**
 
@@ -62,3 +62,17 @@ Proyek ini dirancang untuk melatih keterampilan berikut:
 * Fitur batasan waktu menjawab
 * Menyimpan dan menampilkan skor tertinggi
 * Menampilkan daftar negara yang belum berhasil ditebak
+
+---
+
+## 📂 Link Google Drive
+
+**Unduh file program atau dokumentasi lengkap:**
+[Link Google Drive di sini]([https://drive.google.com/your-link-here](https://drive.google.com/file/d/1rPv-ljt0G1X8cL4WZimFHTdIzxrpvJJa/view?usp=sharing))
+
+---
+
+## 📺 Link YouTube Demo
+
+**Tonton demo permainan di YouTube:**
+[Link Video YouTube di sini](https://youtube.com/your-link-here)
