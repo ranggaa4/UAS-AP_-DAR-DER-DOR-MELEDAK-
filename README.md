@@ -1,5 +1,6 @@
 🎮 Permainan Tebak Nama Negara 
-👥 Nama Kelompok: **DAR DER DOR MELEDAK**
+
+👥 Nama Kelompok: DAR DER DOR MELEDAK
  Anggota:
 
 * 🧑‍💻 **Rusydi Araffi** (241401023)
