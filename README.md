@@ -67,12 +67,12 @@ Proyek ini dirancang untuk melatih keterampilan berikut:
 
 ## 📂 Link Google Drive
 
-**Unduh file program atau dokumentasi lengkap:**
+**Screenshoot hasil Output yang dihasilkan Program:**
 (https://drive.google.com/file/d/1rPv-ljt0G1X8cL4WZimFHTdIzxrpvJJa/view?usp=sharing)
 
 ---
 
 ## 📺 Link YouTube Demo
 
-**Tonton demo permainan di YouTube:**
+**Video Penjelasan Program:**
 https://youtu.be/KT7C5sES_P0
