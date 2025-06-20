@@ -1,1 +1,84 @@
+#include <iostream>
+#include <vector>
+#include <ctime>
+#include <cstdlib>
+#include <algorithm>
+#include <cctype>
 
+using namespace std;
+
+string buatPertanyaan(const string& negara, vector<int>& posisiHilang) {
+    vector<int> posisiValid;
+    for (int i = 0; i < negara.size(); ++i) {
+        if (isalpha(negara[i])) {
+            posisiValid.push_back(i);
+        }
+    }
+
+    int jumlahHilang = 2 + rand() % 2;
+    random_shuffle(posisiValid.begin(), posisiValid.end());
+
+    posisiHilang.clear();
+
+    string pertanyaan = negara;
+
+    for (int i = 0; i < jumlahHilang && i < posisiValid.size(); ++i) {
+        int pos = posisiValid[i];
+        posisiHilang.push_back(pos);
+        pertanyaan[pos] = '_';
+    }
+
+    return pertanyaan;
+}
+
+string buatNamaNegaraAcak() {
+    vector<string> semuaNegara = {
+        "indonesia", "malaysia", "singapura", "vietnam", "thailand", "brunei", "filipina",
+        "amerika", "kanada", "mexico", "brazil", "argentina", "chile", "peru", "kolombia",
+        "inggris", "perancis", "jerman", "belanda", "italia", "spanyol", "portugal", "yunani",
+        "rusia", "ukraina", "polandia", "norwegia", "swedia", "finlandia", "denmark",
+        "cina", "jepang", "korea", "india", "pakistan", "bangladesh", "nepal", "sri lanka",
+        "australia", "selandia baru", "afrika selatan", "mesir", "nigeria", "ghana", "kenya",
+        "iran", "irak", "arab saudi", "turki", "turkmenistan", "suriah", "yaman"
+    };
+
+    string nama = semuaNegara[rand() % semuaNegara.size()];
+    transform(nama.begin(), nama.end(), nama.begin(), ::tolower);
+    return nama;
+}
+
+int main() {
+    srand(time(0));
+
+    int skor = 0;
+    char lanjut;
+
+    do {
+        string negara = buatNamaNegaraAcak();
+        vector<int> posisiHilang;
+        string soal = buatPertanyaan(negara, posisiHilang);
+
+        cout << "Tebak negara: " << soal << endl;
+
+        string jawaban;
+        cout << "Negara apakah yang dimaksud? ";
+        getline(cin >> ws, jawaban);
+
+        transform(jawaban.begin(), jawaban.end(), jawaban.begin(), ::tolower);
+
+        if (jawaban == negara) {
+            cout << "Benar! Anda mendapatkan 1 poin.\n";
+            skor++;
+        } else {
+            cout << "Maaf, jawaban anda salah. Coba lagi\n";
+        }
+
+        cout << "Skor saat ini: " << skor << endl;
+        cout << "Lanjut bermain? (y/n): ";
+        cin >> lanjut;
+
+    } while (tolower(lanjut) == 'y');
+
+    cout << "Game selesai :D";
+    return 0;
+}
